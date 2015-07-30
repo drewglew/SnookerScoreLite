@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>General Settings</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Show Instructions</string>
+			<key>Key</key>
+			<string>showInstructions</string>
+			<key>DefaultValue</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Advanced Counting</string>
+			<key>Key</key>
+			<string>advancedCounting</string>
+			<key>DefaultValue</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Player One</string>
+		</dict>
+		<dict>
+			<key>AutocapitalizationType</key>
+			<string>Words</string>
+			<key>AutocorrectionType</key>
+			<string>No</string>
+			<key>DefaultValue</key>
+			<string>Player1</string>
+			<key>IsSecure</key>
+			<false/>
+			<key>Key</key>
+			<string>player1</string>
+			<key>KeyboardType</key>
+			<string>Alphabet</string>
+			<key>Title</key>
+			<string>Name</string>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Email</string>
+			<key>Key</key>
+			<string>emailPlayer1</string>
+			<key>DefaultValue</key>
+			<string>email@player1</string>
+			<key>KeyboardType</key>
+			<string>EmailAddress</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Player Two</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Name</string>
+			<key>Key</key>
+			<string>player2</string>
+			<key>DefaultValue</key>
+			<string>Player2</string>
+			<key>AutocapitalizationType</key>
+			<string>Words</string>
+			<key>KeyboardType</key>
+			<string>Alphabet</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Email</string>
+			<key>Key</key>
+			<string>emailPlayer2</string>
+			<key>DefaultValue</key>
+			<string>email@player2</string>
+			<key>KeyboardType</key>
+			<string>EmailAddress</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Email Settings</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Embed Images</string>
+			<key>Key</key>
+			<string>embedImages</string>
+			<key>DefaultValue</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Number of Graphs Attached in Email</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>KeyboardType</key>
+			<string>NumberPad</string>
+			<key>Title</key>
+			<string>Amount</string>
+			<key>Key</key>
+			<string>noOfGraphs</string>
+		</dict>
+	</array>
+</dict>
+</plist>
